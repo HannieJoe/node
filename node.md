@@ -19,5 +19,13 @@ git push -u origin master
 9. 在git bash,git remote add origin git@github.com:HannieJoe/fourth-geneartion.git
 10. 在git bash,git push -u origin master
 
+
+### git基本知识
+1. git add . 将所有修改提交到暂存区,有时候新增的文件可能加不进去要 git add -A
+2. git commit -m '提交原因'	将暂存区的内容提交到本地版本库
+3. git pull origin master(远程分支名)	将远程版本库中的内容合并到本地版本库
+4. git push origin master(远程分支名) 将本地版本库中的内容提交到远程版本库
+
+
 ##  new URLSearchParams(); 
 解决ajax 与 axios 传参格式不同,但兼容性不好
